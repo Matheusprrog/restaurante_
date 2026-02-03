@@ -6,7 +6,7 @@
 ##  Status do Projeto
  **Em Desenvolvimento** 
 
-🛠️ Tecnologias Utilizadas
+Tecnologias Utilizadas
 
 - **Linguagem:** Java 8+
 - **Banco de Dados:** MySQL 8.0
@@ -23,7 +23,7 @@
 
 O Sistema de Gerenciamento de Restaurante foi desenvolvido para facilitar o controle de pedidos, cadastro de clientes e produtos em estabelecimentos do ramo alimentício. O sistema visa automatizar processos manuais, reduzir erros operacionais e melhorar a experiência tanto dos funcionários quanto dos clientes.
 
-## ⚙️ Funcionalidades do Sistema
+## Funcionalidades do Sistema
 
 ###Requisitos Funcionais
 
@@ -57,7 +57,7 @@ O Sistema de Gerenciamento de Restaurante foi desenvolvido para facilitar o cont
    - Operações CRUD (Create, Read) implementadas
    - Transações seguras com tratamento de exceções
 
-## 🗄️ Estrutura do Banco de Dados
+##  Estrutura do Banco de Dados
 
 ### Tabela: `cliente`
 - `id` (INT, PRIMARY KEY, AUTO_INCREMENT)
@@ -92,6 +92,13 @@ O Sistema de Gerenciamento de Restaurante foi desenvolvido para facilitar o cont
 - **MVC (Model-View-Controller):** Organização em camadas (Model, DAO, Visual)
 - **Singleton (implícito):** Conexão única com o banco de dados
 
+##  Histórico de Versões
+
+- **v1.0.0** (02/02/2026) - Versão inicial do sistema
+  - Cadastro de clientes
+  - Cadastro de produtos  
+  - Registro de pedidos
+  - Integração com banco de dados MySQL
 
 
 
